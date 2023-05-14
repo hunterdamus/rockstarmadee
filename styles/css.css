@@ -1,0 +1,307 @@
+			body {
+				margin: 0px;
+				padding: 0px;
+				font: 1em Arial;
+				background-color: black;
+				overflow-x:hidden;
+			}
+			.mainbiggest {
+			}
+			p {
+				font-family: 'Montserrat', sans-serif;
+			}
+			header {
+				height: 500px;
+			}
+			.buypageheader {
+				height: 250px;
+			}
+			.nevereverheader {
+				opacity: 55%;
+			}
+			.blckline {
+				display: flex;
+				align-items: center;
+				height: 65px;
+				border-radius: 50px;
+				width: 70%;
+				position: relative;
+				margin: auto;
+				bottom: 470px;
+			}
+			.blckopacity {
+				background-color: black;
+				height: 65px;
+				border-radius: 50px;
+				width: 100%;
+				opacity: 60%;
+			}
+			.headerlinks {
+				position: absolute;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				margin: auto;
+				width: 96.5%;
+				font-size: 1.25em;
+			}
+			.headerdestroylonely {
+				position: relative;
+				text-align: center;
+				color: white;
+				font-size: 3.25em;
+				bottom: 390px;
+			}
+			.headermenu {
+				text-decoration: none;
+				color:white;
+				transition: 0.4s;
+			}
+			.headermenu1 {
+				text-decoration: none;
+				color:white;
+				transition: 0.4s;
+			}
+			.headermenu1:hover {
+				color: #848484;
+			}
+			.headermenu:hover {
+				color: #7048A8;
+			}
+			.articleTitle {
+				position: relative;
+				text-align: center;
+				color: white;
+				font-size: 2.25em;
+				padding-bottom: 50px;
+				padding-top: 50px;
+			}
+			.articleText {
+				position: relative;
+				color: white;
+				font-size: 2em;
+				width: 95%;
+				text-align: center;
+				left: 1.5%;
+			}
+			.artictleHover {
+				color: #7048A8;
+				text-decoration: none;
+				transition: 0.4s;
+			}
+			.artictleHover:hover {
+				color: white;
+			}
+			main {
+				padding-bottom: 200px;
+			}
+			footer {
+				height: 230px;
+			}
+			.footerlinksnet {
+				position: relative;
+				text-align: center;
+				color: white;
+				width: 9%;
+				font-size: 1.75em;
+			}
+			.footermenu {
+				color: white;
+				text-decoration: none;
+				transition: 0.4s;
+			}
+			.footermenu:hover {
+				color: #7048A8;
+			}
+			.opimumh:hover {
+				color: darkred;
+			}
+			.footerlinks {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration: none;
+				position: relative;
+				color: white;
+				font-size: 1.25em;
+				list-style: georgian;
+			}
+			.opiumlogofooter {
+				display: flex;
+				width: 10%;
+				position: relative;
+				bottom: 216px;
+				left: 92%;
+				transform: rotate(45deg);
+				opacity: 20%;
+			}
+			.tourtable {
+				padding-top: 50px;
+				margin: auto;
+				position: relative;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.75em;
+				width: 70%;
+			}
+			td {
+				padding-bottom: 30px;
+			}
+			.tourtr {
+				transition: 0.4s;
+			}
+			.tourtr:hover {
+				background-color: #111111;
+			}
+			.ticketbtn {
+				color: white;
+				text-decoration: none;
+				padding-right: 15px;
+				padding-left: 15px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				border: 1px white solid;
+				border-radius: 10px;
+			}
+			input {
+				position: relative;
+				left: 36.5%;
+				border-radius: 10px;
+				font-family: 'Montserrat', sans-serif;
+				padding: 15px;
+				width: 25%;
+			}
+			button {
+				color: white;
+			}
+			.submitbutton {
+				position: relative;
+				padding-left: 30px;
+				padding-right: 30px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				background-color: black;
+				border-radius: 10px;
+				border: 2px white solid;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.75em;
+				top: 120px;
+				left: 18.5%;
+			}
+			.albumss {
+				display: flex;
+				justify-content: center;
+			}
+			.merchdiv {
+				display: flex;
+				justify-content: center;
+			}
+			.mrealese {
+				padding: 30px;
+			}
+			.albumcover {
+				width: 400px;
+				transition: 0.4s;
+			}
+			.albumcover:hover {
+				transform: scale(1.1);
+				box-shadow: 0px 0px 45px 0px #111111;
+			}
+			.releasename {
+				position: relative;
+				text-align: center;
+				font-size: 1.75em;
+				color: white;
+			}
+			.mplatforms {
+				position: relative;
+				font-size: 3em;
+				width: 30%;
+				margin: auto;
+				bottom: 20px;
+			}
+			.epandsingles {
+				display: flex;
+				justify-content: center;
+			}
+			.buybtn {
+				color: white;
+				text-decoration: none;
+				transition: 0.4s;
+			}
+			.buybtn:hover {
+				color: #848484;
+			}
+			.goldman {
+				color: white;
+				text-decoration: none;
+				transition: 0.4s;
+			}
+			.goldman:hover {
+				color: gold;
+			}
+			.pdddn {
+				padding-top: 50px;
+			}
+			.buywindow {
+				display: flex;
+				justify-content: center;
+			}
+			.itemt1 {
+				position: relative;
+				right: 60%;
+			}
+			.item_name {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.75em;
+				font-weight: bold;
+				position: relative;
+				left: 50%;
+			}
+			.item_price {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.75em;
+				font-weight: lighter;
+				position: relative;
+				left: 50%;
+			}
+			.size_tabelp1 {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.2em;
+				font-weight: lighter;
+				position: relative;
+				left: 50%;
+			}
+			.item_parametrs {
+				position: relative;
+				bottom: 60%;
+			}
+			.size_tabel {
+				width: 37%;
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				position: relative;
+				left: 50%;
+			}
+			.item_buybtn {
+				color: white;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.4em;
+				font-weight: bold;
+				position: relative;
+				left: 50%;
+			}
+			.size_td {
+				transition: 0.2s;
+				background-color: black;
+				font-size: 1.1em;
+				border: 2px white solid;
+			}
+			.size_td:active {
+				color: darkred;
+				border: 2px darkred solid;
+				cursor: pointer;
+			}

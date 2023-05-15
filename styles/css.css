@@ -1,3 +1,4 @@
+			/* Body css */
 			body {
 				margin: 0px;
 				padding: 0px;
@@ -5,20 +6,23 @@
 				background-color: black;
 				overflow-x:hidden;
 			}
-			.mainbiggest {
-			}
+			/* auto font in paragraph */
 			p {
 				font-family: 'Montserrat', sans-serif;
 			}
+			/* header height */
 			header {
 				height: 500px;
 			}
+			/* header in buy page */
 			.buypageheader {
 				height: 250px;
 			}
+			/* video opacity in header */
 			.nevereverheader {
 				opacity: 55%;
 			}
+			/* navigation in header layout */
 			.blckline {
 				display: flex;
 				align-items: center;
@@ -29,6 +33,7 @@
 				margin: auto;
 				bottom: 470px;
 			}
+			/* black transparent background in header */
 			.blckopacity {
 				background-color: black;
 				height: 65px;
@@ -36,6 +41,7 @@
 				width: 100%;
 				opacity: 60%;
 			}
+			/* buttons in header */
 			.headerlinks {
 				position: absolute;
 				color: white;
@@ -44,6 +50,7 @@
 				width: 96.5%;
 				font-size: 1.25em;
 			}
+			/* big inscription in header (destroy lonely) */
 			.headerdestroylonely {
 				position: relative;
 				text-align: center;
@@ -51,22 +58,27 @@
 				font-size: 3.25em;
 				bottom: 390px;
 			}
+			/* class on link in navigation in header (just make they perfect) */
 			.headermenu {
 				text-decoration: none;
 				color:white;
 				transition: 0.4s;
 			}
+			/* same class like headermenu but only for big inscription in header (destroy lonely) */
 			.headermenu1 {
 				text-decoration: none;
 				color:white;
 				transition: 0.4s;
 			}
+			/* when hover change cover (big inscription in header) */
 			.headermenu1:hover {
 				color: #848484;
 			}
+			/* when hover change cover (buttons in navigation) */
 			.headermenu:hover {
 				color: #7048A8;
 			}
+			/* Title in article  */
 			.articleTitle {
 				position: relative;
 				text-align: center;
@@ -75,6 +87,7 @@
 				padding-bottom: 50px;
 				padding-top: 50px;
 			}
+			/* Text in article  */
 			.articleText {
 				position: relative;
 				color: white;
@@ -83,20 +96,25 @@
 				text-align: center;
 				left: 1.5%;
 			}
+			/* <a> class in article to make link unique */
 			.artictleHover {
 				color: #7048A8;
 				text-decoration: none;
 				transition: 0.4s;
 			}
+			/* color change in hover (<a> class in article to make link unique) */
 			.artictleHover:hover {
 				color: white;
 			}
+			/* indent from header  */
 			main {
 				padding-bottom: 200px;
 			}
+			/* footer height   */
 			footer {
 				height: 230px;
 			}
+			/* links in footer (social medias)  */
 			.footerlinksnet {
 				position: relative;
 				text-align: center;
@@ -104,17 +122,21 @@
 				width: 9%;
 				font-size: 1.75em;
 			}
+			/* footer <a> class  */
 			.footermenu {
 				color: white;
 				text-decoration: none;
 				transition: 0.4s;
 			}
+			/* change color in hover (footer <a> class)  */
 			.footermenu:hover {
 				color: #7048A8;
 			}
+			/* class for opium (to make him red in footer when you hover on him)  */
 			.opimumh:hover {
 				color: darkred;
 			}
+			/* links in footer (streaming) */
 			.footerlinks {
 				color: white;
 				font-family: 'Montserrat', sans-serif;
@@ -124,6 +146,7 @@
 				font-size: 1.25em;
 				list-style: georgian;
 			}
+			/* opium logo in footer  */
 			.opiumlogofooter {
 				display: flex;
 				width: 10%;
@@ -133,6 +156,7 @@
 				transform: rotate(45deg);
 				opacity: 20%;
 			}
+			/* tour table  */
 			.tourtable {
 				padding-top: 50px;
 				margin: auto;
@@ -142,15 +166,19 @@
 				font-size: 1.75em;
 				width: 70%;
 			}
+			/* padding in tour table */
 			td {
 				padding-bottom: 30px;
 			}
+			/* perfect animation (transition) */
 			.tourtr {
 				transition: 0.4s;
 			}
+			/* color change in hover (tour table)  */
 			.tourtr:hover {
 				background-color: #111111;
 			}
+			/* Ticket button in tour table */
 			.ticketbtn {
 				color: white;
 				text-decoration: none;
@@ -161,6 +189,7 @@
 				border: 1px white solid;
 				border-radius: 10px;
 			}
+			/* Email form class  */
 			input {
 				position: relative;
 				left: 36.5%;
@@ -169,9 +198,11 @@
 				padding: 15px;
 				width: 25%;
 			}
+			/* auto text color change in button  */
 			button {
 				color: white;
 			}
+			/* submit button (tour page) */
 			.submitbutton {
 				position: relative;
 				padding-left: 30px;
@@ -187,31 +218,38 @@
 				top: 120px;
 				left: 18.5%;
 			}
+			/* div which contain albums div */
 			.albumss {
 				display: flex;
 				justify-content: center;
 			}
+			/* div which contain merchs div */
 			.merchdiv {
 				display: flex;
 				justify-content: center;
 			}
+			/* just padding in table */
 			.mrealese {
 				padding: 30px;
 			}
+			/* albumcover */
 			.albumcover {
 				width: 400px;
 				transition: 0.4s;
 			}
+			/* beatiful animation (album cover) */
 			.albumcover:hover {
 				transform: scale(1.1);
 				box-shadow: 0px 0px 45px 0px #111111;
 			}
+			/* release and merch name in table */
 			.releasename {
 				position: relative;
 				text-align: center;
 				font-size: 1.75em;
 				color: white;
 			}
+			/* streaming platforms */
 			.mplatforms {
 				position: relative;
 				font-size: 3em;
@@ -219,37 +257,45 @@
 				margin: auto;
 				bottom: 20px;
 			}
+			/* div which contain singles an ep's div */
 			.epandsingles {
 				display: flex;
 				justify-content: center;
 			}
+			/* buy button in merch */
 			.buybtn {
 				color: white;
 				text-decoration: none;
 				transition: 0.4s;
 			}
+			/* change color when you hover (buy button) */
 			.buybtn:hover {
 				color: #848484;
 			}
+			/* just class to gold man, which help me with 3D for merch (color change) */
 			.goldman {
 				color: white;
 				text-decoration: none;
 				transition: 0.4s;
 			}
+			/* change color when you hover */
 			.goldman:hover {
 				color: gold;
 			}
 			.pdddn {
 				padding-top: 50px;
 			}
+			/* div which contain all info about purchase */
 			.buywindow {
 				display: flex;
 				justify-content: center;
 			}
+			/* item preview (video position) */
 			.itemt1 {
 				position: relative;
 				right: 60%;
 			}
+			/* item name */
 			.item_name {
 				color: white;
 				font-family: 'Montserrat', sans-serif;
@@ -258,6 +304,7 @@
 				position: relative;
 				left: 50%;
 			}
+			/* item price */
 			.item_price {
 				color: white;
 				font-family: 'Montserrat', sans-serif;
@@ -266,6 +313,7 @@
 				position: relative;
 				left: 50%;
 			}
+			/* size table */
 			.size_tabelp1 {
 				color: white;
 				font-family: 'Montserrat', sans-serif;
@@ -274,10 +322,12 @@
 				position: relative;
 				left: 50%;
 			}
+			/* size */
 			.item_parametrs {
 				position: relative;
 				bottom: 60%;
 			}
+			/* size table */
 			.size_tabel {
 				width: 37%;
 				color: white;
@@ -286,6 +336,7 @@
 				position: relative;
 				left: 50%;
 			}
+			/* buy button in buy page*/
 			.item_buybtn {
 				color: white;
 				font-family: 'Montserrat', sans-serif;
@@ -294,12 +345,14 @@
 				position: relative;
 				left: 50%;
 			}
+			/* size button class */
 			.size_td {
 				transition: 0.2s;
 				background-color: black;
 				font-size: 1.1em;
 				border: 2px white solid;
 			}
+			/* size button color change when active (mouse click) */
 			.size_td:active {
 				color: darkred;
 				border: 2px darkred solid;
